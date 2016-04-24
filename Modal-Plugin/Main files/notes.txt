@@ -1,0 +1,12 @@
+Instructions to use this plugin:
+
+1) Include na.plugin.modal.min.css and na.plugin.modal.min.js file in your main HTML file.
+2) After including, call "na.modal.init(args)" method whenever you want to open modalbox.
+3) "init" method expects an argument. This is an object with an essential field, "modal-box". 
+For eg,
+na.modal.init({
+	"modal-box" : "modalContent"
+});
+Here, modalContent is an id of content div that you want to display as modal.
+
+4) That's it, smile :)
